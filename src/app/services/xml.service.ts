@@ -17,10 +17,15 @@ export class XmlService {
     invoiceData: any;
 
     wrap = 80;
-    margenLeft = [ 32, 32, 32, 32];
-    margenLeftSubItem = [ 32, 32, 32, 32, 32, 32];
+    margenLeft = [ 32 ];
+    margenLeftSubItem = [ 32, 32, 32, 32];
     margenRight = [ 32, 32, 32, 32, 32, 32];
     detalleLength = 36;
+    borderLine = [223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223,
+                  223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223,  223, 223, 223, 223,
+                  223, 223, 223, 223, 223, 223, 223, 223, 223, 223,  223, 223, 223, 223,  223, 223, 223,
+                  223, 223, 223, 223, 223, 223, 223, 223, 223, 223,  223, 223, 223
+                ];
 
     constructor( private http: HttpClient) { }
 
@@ -400,26 +405,40 @@ export class XmlService {
 
             const encoder = new EscPosEncoder();
 
-            const subDetalle = this.recortarPalabra('CANTIDAD x PRECIO', 36);
-            const subUnidad = this.recortarPalabra('MEDIDA', 35);
+            const subDetalle = this.recortarPalabra('CANTIDAD x PRECIO', 28);
+            const subUnidad = this.recortarPalabra('MEDIDA', 27);
+
+            const RUT = this.recortarPalabra(`R.U.T.: ${ this.invoiceData.rut }`, 32);
 
             const result = encoder
                 .align('center')
                 .underline(false)
                 .size('normal')
 
+                .raw([223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223,
+                  223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223,  223, 223, 223, 223])
+                .newline()
+
                 .bold(true)
+                // .text(`${RUT}H`, this.wrap)
+                // .text(`R.U.T.: ${ this.invoiceData.rut }`, this.wrap)
+                // .raw([32, 219])
                 .line(`R.U.T.: ${ this.invoiceData.rut }`, this.wrap)
                 .bold(false)
                 .newline()
 
-                .line('GUIA DE DESPACHO', this.wrap)
+                .text(`GUIA DE DESPACHO`, this.wrap)
+                // .raw([32, 32, 32, 219])
+                .newline()
+                // .line('GUIA DE DESPACHO', this.wrap)
                 .line('ELECTRONICA', this.wrap)
                 .newline()
 
                 .bold(true)
                 .line(`Nro ${ this.invoiceData.folio }`, this.wrap)
                 .bold(false)
+                .raw([223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223,
+                  223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223, 223,  223, 223, 223, 223])
                 .newline()
 
                 .size('small')
@@ -433,134 +452,138 @@ export class XmlService {
                 .align('left')
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`CASA MATRIZ: `, 20)
                 .bold(false)
                 .text(`${this.invoiceData.direccion }`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`GIRO: `, 20)
                 .bold(false)
                 .text(`${ this.invoiceData.giroRecep }`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`FECHA EMISION: `, 20)
                 .bold(false)
                 .text(`${ this.invoiceData.fechaEmision }`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`DIRECCION SUCURSA: `, 20)
                 .bold(false)
                 .text(``, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`TIENDA: `, 20)
                 .bold(false)
                 .text(``, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`CAJEROA: `, 20)
                 .bold(false)
                 .text(``, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`NRO. TRANSACCION: `, 20)
                 .bold(false)
                 .text(``, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`RUT CLIENTE: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.receptor}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`NOMBRE CLIENTE: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.rznSocReceptor}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`GIRO: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.giroRecep}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`DIRECCION: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.dirRecep}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`COMUNA: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.cmnaRecep}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`CIUDAD: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.ciudadOrigen}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`CIUDAD DESTINO: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.ciudadRecep}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`TIPO TRASLADO: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.indTraslado}`, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`TRANSPORTISTA: `, 20)
                 .bold(false)
                 .text(` `, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`ODOMETRO: `, 20)
                 .bold(false)
                 .text(` `, this.wrap)
                 .newline()
 
                 .bold(true)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .text(`TIPO DESPACHO: `, 20)
                 .bold(false)
                 .text(` ${this.invoiceData.tipoDespacho}`, this.wrap)
                 .newline()
 
                 .align('center')
-                .line(`Detalle                              UNIDAD                              VALOR`, this.wrap)
+                .raw(this.borderLine)
+                .newline()
+
+                .line(`Detalle                      UNIDAD                      VALOR`, this.wrap)
                 .line(`${subDetalle} ${subUnidad} VALOR`, this.wrap)
+                .raw(this.borderLine)
                 .newline()
                 .encode();
 
@@ -589,8 +612,8 @@ export class XmlService {
                 precioItem = this.number_format(detalle.precioItem, 2, ',', '.');
                 montoItem = detalle.montoItem;
 
-                nombreItem = this.recortarPalabra(nombreItem, 36);
-                unidadItem = this.recortarPalabra(unidadItem, 35);
+                nombreItem = this.recortarPalabra(nombreItem, 32);
+                unidadItem = this.recortarPalabra(unidadItem, 23);
                 montoItem = this.recortarPalabra(montoItem, 7);
 
                 subItem = this.recortarPalabra(`${cantidadItem} x ${precioItem} c/u`, 36);
@@ -604,6 +627,33 @@ export class XmlService {
 
                 formatoDetalle.push( result );
             });
+
+            const totalNetoString = this.recortarPalabra('TOTAL NETO', 32);
+            const totalNetoSimbolo = this.recortarPalabra('$', 23);
+            const totalNetoValor = this.recortarPalabra(this.invoiceData.montoNeto, 7);
+
+            const montoIVAString = this.recortarPalabra('TOTAL IVA', 32);
+            const montoIVASimbolo = this.recortarPalabra('$', 23);
+            const montoIVAValor = this.recortarPalabra(this.invoiceData.montoIVA, 7);
+
+            const montoTotalString = this.recortarPalabra('TOTAL', 32);
+            const montoTotalSimbolo = this.recortarPalabra('$', 23);
+            const montoTotalValor = this.recortarPalabra(this.invoiceData.montoTotal, 7);
+
+            result = encoder
+                .align('center')
+                .raw(this.borderLine)
+                .newline()
+                .align('left')
+                .line(`${totalNetoString} ${totalNetoSimbolo} ${totalNetoValor}`, this.wrap)
+                .line(`${montoIVAString} ${montoIVASimbolo} ${montoIVAValor}`, this.wrap)
+                .line(`${montoTotalString} ${montoTotalSimbolo} ${montoTotalValor}`, this.wrap)
+                .align('center')
+                .raw(this.borderLine)
+                .newline()
+                .encode();
+
+            formatoDetalle.push( result );
 
             resolve( formatoDetalle );
         });
@@ -655,7 +705,7 @@ export class XmlService {
             // tslint:disable-next-line: max-line-length
             const code = `<TED version="${TED.ATTR.version}"><DD> <RE>${ TED.DD[0].RE[0] }</RE> <TD>${ TED.DD[0].TD[0]}</TD> <F>${ TED.DD[0].F[0] }</F> <FE>${ TED.DD[0].FE[0] }</FE> <RR>${ TED.DD[0].RR[0] }</RR> <RSR>${ TED.DD[0].RSR[0] }</RSR> <MNT>${ TED.DD[0].MNT[0] }</MNT> <IT1>${ TED.DD[0].IT1[0] }</IT1><CAF version="${ TED.DD[0].CAF[0].ATTR.version[0]}" ><DA> <RE> ${ TED.DD[0].CAF[0].DA[0].RE[0] } </RE> <RS> ${ TED.DD[0].CAF[0].DA[0].RS[0] } </RS> <TD> ${ TED.DD[0].CAF[0].DA[0].TD[0] } </TD><RNG> <D> ${ TED.DD[0].CAF[0].DA[0].RNG[0].D[0]} </D> <H> ${ TED.DD[0].CAF[0].DA[0].RNG[0].H[0] } </H></RNG><FA> ${ TED.DD[0].CAF[0].DA[0].FA[0] } </FA><RSAPK> <M> ${ TED.DD[0].CAF[0].DA[0].RSAPK[0].M[0] } </M> <E> ${ TED.DD[0].CAF[0].DA[0].RSAPK[0].E[0] } </E> </RSAPK><IDK> ${ TED.DD[0].CAF[0].DA[0].IDK[0] } </IDK></DA><FRMA> ${ TED.DD[0].CAF[0].FRMA[0]._ } </FRMA></CAF><TSTED> ${ TED.DD[0].TSTED[0] }  </TSTED></DD><FRMT algoritmo="${ TED.FRMT[0].ATTR.algoritmo }" >  ${ TED.FRMT[0]._ } </FRMT</TED>`;
 
-            console.log(code);
+            // console.log(code);
 
             const encoder = new EscPosEncoder();
 
@@ -682,11 +732,12 @@ export class XmlService {
             const encoder = new EscPosEncoder();
 
             const result = encoder
-                .raw(this.margenLeft)
+                .align('center')
+                // .raw(this.margenLeft)
                 .line(`Timbre Electronico SII`, this.wrap)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .line(`Res. ${this.invoiceData.numeroResol} del ${this.invoiceData.fechaResol}`, this.wrap)
-                .raw(this.margenLeft)
+                // .raw(this.margenLeft)
                 .line(`Verifique documento www.sii.cl`, this.wrap)
                 .encode();
 
