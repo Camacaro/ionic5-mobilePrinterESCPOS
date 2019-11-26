@@ -1,5 +1,7 @@
 {
   "name": "mobilePrinterESCPOS",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

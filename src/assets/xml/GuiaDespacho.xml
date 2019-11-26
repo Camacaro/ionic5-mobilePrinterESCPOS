@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE0acbf45e57ad4e1984516f63cd698061">
+    <Caratula version="1.0">
+      <RutEmisor>92011000-2</RutEmisor>
+      <RutEnvia>92011000-2</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2009-08-12</FchResol>
+      <NroResol>118</NroResol>
+      <TmstFirmaEnv>2019-11-05T12:26:11</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>52</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F25336602T52">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>25336602</Folio>
+            <FchEmis>2019-11-05</FchEmis>
+            <TipoDespacho>2</TipoDespacho>
+            <IndTraslado>1</IndTraslado>
+            <FmaPago>2</FmaPago>
+            <FchVenc>2019-11-19</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>92011000-2</RUTEmisor>
+            <RznSoc>EMPRESA NACIONAL DE ENERGIA ENEX S.A.</RznSoc>
+            <GiroEmis>PRODUCTOS DEL PETROLEO</GiroEmis>
+            <Acteco>519000</Acteco>
+            <DirOrigen>AV. DEL CONDOR SUR 520 CIUDAD EMPRESARIAL</DirOrigen>
+            <CmnaOrigen>HUECHURABA</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76473150-6</RUTRecep>
+            <RznSocRecep>CEN.DE GEST.AMBIENTAL Y SERV.CRECER LTDA</RznSocRecep>
+            <GiroRecep>TRATAMIENTO Y ELIMINACION DE DESECHOS NO</GiroRecep>
+            <DirRecep>CALLE INTERIOR SANTA MARGARITA  01166</DirRecep>
+            <CmnaRecep>SAN BERNARDO</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>598040</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>0</IVA>
+            <MntTotal>598040</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>DIXSEL</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>001</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SD Extra Petróleo Diesel G-B</NmbItem>
+          <QtyItem>1000.000000</QtyItem>
+          <UnmdItem>LT</UnmdItem>
+          <PrcItem>598.040000</PrcItem>
+          <MontoItem>598040</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>92011000-2</RE>
+            <TD>52</TD>
+            <F>25336602</F>
+            <FE>2019-11-05</FE>
+            <RR>76473150-6</RR>
+            <RSR>CEN.DE GEST.AMBIENTAL Y SERV.CRECER LTDA</RSR>
+            <MNT>598040</MNT>
+            <IT1>SD Extra Petróleo Diesel G-B</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>92011000-2</RE>
+                <RS>EMPRESA NACIONAL DE ENERGIA ENEX S.A.</RS>
+                <TD>52</TD>
+                <RNG>
+                  <D>25142280</D>
+                  <H>25642279</H>
+                </RNG>
+                <FA>2018-12-17</FA>
+                <RSAPK>
+                  <M>uaE/krWZUPwqeuXq1k2pGtFBjKAHUgBGbrXBJSQpnOlCGnVf4U5/EaXmJbax7sWDTO8fBqSAF4Qas+nd0k75zQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">CYljOVF11mtln5NSi2oV66MaOnScFYlXHWlor7WcopfBkUMSAVsvyJN7JgZo9SdPOkRKXaizVjDutPG7MIJqyA==</FRMA>
+            </CAF>
+            <TSTED>2019-11-05T12:26:11</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">Sd/4IMn7vK/CiWiUFCH8tPXuxzjL9PQKuu/nCPq2/XaCsbeWKLUF4eHeAMYkgakL7873l72Zb6phjrqoXMCl8w==</FRMT>
+        </TED>
+        <TmstFirma>2019-11-05T12:26:13</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F25336602T52"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Kq5jDZaA4dOD/lzWvVsKLn5TGGo=</DigestValue></Reference></SignedInfo><SignatureValue>
+NZ8PObouhKvAaUteLsqwcR2gHsP/N9QtSZzePUIHSw04SOYED98JbE4gp5yiDECN
+lFVP3HMnvHAucg0qfqvbkC8WGXYFttLv2HGSKp2BVJ70d7OyrKWppO4lLZ2GDHfH
+Dcr41ixagHdrwLxgoeIqKfUMST2XTrtKBuyE1psIftAK3PcijEmQy2Fxa4BvMje6
+RRQHb75CjPi/eJd/uJ1vavdtR9YvNLF8qNdAX+dgwvDFEeEDe6uIrw7rBjaBN/Ba
+v1natK3TX2BXMNW+vgvvNVw0g4BfVvdIvoxUIXN6NOxqpSwC3X7/fF0r98csgquV
+Gc+rOpMi81Af5iywbnYdYQ==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+j8K8JgCFw+pLJHChzhID9LsAHPwEUNK0ZdYrJfazDJXZbUJCP+we+h5zBly4os1I
+vIHsyZHcu+yEVkWak9egIbcNLzqs8f/v1KCXYYwNcmwTeWMqPgF2M4BLmiIrc4/s
+uPzaHIX+Y7fow3MOPEBzNMrhx/PbRucdarZcxglnIfuvyQrdE/N95QZQ4h8ik+ck
+8mLIu4KANiBiGg4r4suxE4hG8uBq/FMBp4ZL7yNJNb55n5xhP0MO1BRTz8lv7v4w
+DVd9LWwLVc3a5ZVfKeSVm8SbaVd0/qcuH9kMmCZv9LMfZsaqmywmO6S5DHxp5vXI
+uw4xhDl6Nf/eGAmTLIq8aw==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGmzCCBYOgAwIBAgIKUdiGqgABAABm5DANBgkqhkiG9w0BAQsFADCB0DELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzESMBAGA1UEChMJUEFQRVJMRVNTMSAwHgYDVQQLExdBdXRvcmlk
+YWQgQ2VydGlmaWNhZG9yYTEuMCwGA1UEAxMlUEFQRVJMRVNTIENBIEZJUk1BIEVM
+RUNUUk9OSUNBIFNJTVBMRTEpMCcGCSqGSIb3DQEJARYaY29tdW5pY2FjaW9uZXNA
+cGtpY2hpbGUuY2wwHhcNMTgwNzEzMTY1NjQ4WhcNMjEwNzEyMTY1NjQ4WjCB4DEL
+MAkGA1UEBhMCQ0wxKjAoBgNVBAgMIVJFR0nDk04gTUVUUk9QT0xJVEFOQSBERSBT
+QU5USUFHTzERMA8GA1UEBxMIU0FOVElBR08xHTAbBgNVBAoTFFNpbiBkYXRvcyBk
+ZSBFbXByZXNhMR8wHQYDVQQLExZTaW4gZGF0b3MgZGUgT2N1cGFjaW9uMSkwJwYD
+VQQDEyBKQVZJRVIgTklDT0xBUyBDQVZBR05BUk8gSU5GQU5URTEnMCUGCSqGSIb3
+DQEJARYYSkFWSUVSLkNBVkFHTkFST0BFTkVYLkNMMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAj8K8JgCFw+pLJHChzhID9LsAHPwEUNK0ZdYrJfazDJXZ
+bUJCP+we+h5zBly4os1IvIHsyZHcu+yEVkWak9egIbcNLzqs8f/v1KCXYYwNcmwT
+eWMqPgF2M4BLmiIrc4/suPzaHIX+Y7fow3MOPEBzNMrhx/PbRucdarZcxglnIfuv
+yQrdE/N95QZQ4h8ik+ck8mLIu4KANiBiGg4r4suxE4hG8uBq/FMBp4ZL7yNJNb55
+n5xhP0MO1BRTz8lv7v4wDVd9LWwLVc3a5ZVfKeSVm8SbaVd0/qcuH9kMmCZv9LMf
+ZsaqmywmO6S5DHxp5vXIuw4xhDl6Nf/eGAmTLIq8awIDAQABo4ICYzCCAl8wPQYJ
+KwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgszOPoL4zR3Zix6Cj4VXhM6VNYEQgr6N
+fobMjUgCAWQCAQIwggGFBgNVHSAEggF8MIIBeDCCAXQGCCsGAQQBgsQ3MIIBZjCC
+AWIGCCsGAQUFBwICMIIBVB6CAVAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABh
+AHIAYQAgAHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbwAuACAAUABTAEMAIABQ
+AGEAcABlAHIAbABlAHMAcwAgAGEAYwByAGUAZABpAHQAYQBkAG8AIABzAGUAZwD6
+AG4AIABSAC4AQQAuACAARQB4AGUAbgB0AGEAIABOALoAIAAxADcAMgAsACAAZABl
+ACAAMwAwACAAZABlACAAZQBuAGUAcgBvACAAZABlACAAMgAwADEAMwAsACAAZABl
+ACAAbABhACAAUwB1AGIAcwBlAGMAcgBlAHQAYQByAO0AYQAgAGQAZQAgAEUAYwBv
+AG4AbwBtAO0AYQAsACAAeQAgAEUAbQBwAHIAZQBzAGEAcwAgAGQAZQAgAE0AZQBu
+AG8AcgAgAFQAYQBtAGEA8QBvAC4wHQYDVR0OBBYEFKT8/saB0wpzUoQMr/5m8jaN
+iTuQMAsGA1UdDwQEAwIE8DAfBgNVHSMEGDAWgBSU5K83ZWZd6WfMPrydb3Eay4yL
+7DAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjE1Mzc3MDc1LTEwIwYDVR0SBBww
+GqAYBggrBgEEAcEBAqAMFgo5NjkxNTMxMC02MA0GCSqGSIb3DQEBCwUAA4IBAQCi
+CHcFmHwXbvN1PI4idOg/+FKyidkL/Aowyb9+US6ra/IPPmF0UA26OJghdjP2lMfU
+Jn9mw4QRl03qV/Rdn5sc/3iIqJKQ4Jov7YAM04sMhHXl5BqlEoUueXz5uAo0KPhO
+6NRyn6l+yuRx9+ijQS36DLDC/sx8abD/8kxuuR94NfDtVH0cOv4XympuY8cCUad7
+IjsLbPxN7K4F2hiVdVWuAw3kn9fwvA4CPVEnjwVuRyzA/CR8WobyNyV50XkLWEia
+KbwodD5l26yMmkbqF4drIN9XoSBe83NO5eNWR4cDqXjPwab9B52/JDYpzxDY+VB/
+wI/QJphvU5QKKtFCAohR
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+<Personalizados><DocPersonalizado dteID="F25336602T52">
+      <campoString name="Cod_Despacho" />
+      <campoString name="Impresora">FEXHLDL97</campoString>
+      <campoString name="Cod_Recepcion">2703663</campoString>
+      <campoString name="Cta_Fact">2703662</campoString>
+      <campoString name="Localidad" />
+      <campoString name="CC">C14</campoString>
+      <campoString name="Zona" />
+      <campoString name="GD" />
+      <campoString name="Tipo_Orden">SA</campoString>
+      <campoString name="Mensaje1">Impuesto Ley Nro. 18.502 no recuperable,</campoString>
+      <campoString name="Mensaje2">por Petróleo que se use en vehículos que</campoString>
+      <campoString name="Mensaje3">transiten por calles y carreteras, excep</campoString>
+      <campoString name="Mensaje4">to el impuesto susceptible de recuperar</campoString>
+      <campoString name="Mensaje5">como crédito según lo establecido en el</campoString>
+      <campoString name="Mensaje6">artículo 2º, Ley Nº. 19.764.</campoString>
+      <campoString name="Regla_Impresion" />
+      <campoString name="Sucursal" />
+      <campoString name="Dire_Suc" />
+      <campoString name="Fono_Suc" />
+      <campoString name="Observaciones">Horario: 9:00 AM</campoString>
+      <campoString name="Observaciones1" />
+      <campoString name="Msg01" />
+      <campoString name="Msg02" />
+      <campoString name="N_Orden">9097931</campoString>
+      <campoString name="Razon_Social">CEN.DE GEST.AMBIENTAL Y SERV.CRECER LTDA</campoString>
+      <campoString name="Fecha_Emision">5/11/2019</campoString>
+      <campoString name="Fecha_Vencimiento">19/11/2019</campoString>
+      <campoString name="N_Doc">25336602</campoString>
+      <campoString name="Total_Pagar">598040</campoString>
+      <campoString name="Email" />
+      <campoString name="Kilos">830,0000</campoString>
+      <campoString name="Cod_Cliente">2703663</campoString>
+      <campoString name="Transporte" />
+      <campoString name="N_Viaje">0</campoString>
+      <campoString name="Destino">KM 22 RUTA F-190</campoString>
+      <campoString name="Com_Destino">PUCHUNCAVI</campoString>
+      <campoString name="Orden_Compra" />
+      <campoString name="Rut_Trans" />
+      <campoString name="Rut_Chofer" />
+      <campoString name="Nombre_Chofer" />
+      <campoString name="Electronico" />
+      <campoString name="Solicita" />
+      <campoString name="Banco1">Santander</campoString>
+      <campoString name="Banco2">Bci</campoString>
+      <campoString name="Cod_Banco1">78</campoString>
+      <campoString name="Cod_Banco2">248</campoString>
+      <campoString name="Impuesto1">0</campoString>
+      <campoString name="Impuesto2">0</campoString>
+      <campoString name="Impuesto3">0</campoString>
+      <campoString name="Tipo1" />
+      <campoString name="Tipo2" />
+      <campoString name="Tipo3" />
+      <campoString name="IdEnex" />
+      <campoString name="ProcessId">NPG</campoString>
+      <ImpresionDetalle>
+        <PersonNroLinDet>1</PersonNroLinDet>
+        <DetPersonAFN_01>1000</DetPersonAFN_01>
+        <DetPersonAFN_05>LT</DetPersonAFN_05>
+        <DetPersonAFN_06>DIXSEL</DetPersonAFN_06>
+      </ImpresionDetalle>
+    </DocPersonalizado></Personalizados></EnvioDTE>

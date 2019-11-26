@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0">
+<SetDTE ID="SETDTE95304000X52X1080822X206317793">
+<Caratula version="1.0">
+<RutEmisor>95304000-K</RutEmisor>
+<RutEnvia>11862736-9</RutEnvia>
+<RutReceptor>96532330-9</RutReceptor>
+<FchResol>2012-10-17</FchResol>
+<NroResol>109</NroResol>
+<TmstFirmaEnv>2019-11-11T18:16:23</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>52</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE version="1.0">
+    <Documento ID="DTE95304000X52X1080822X20191111181522">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>1080822</Folio>
+            <FchEmis>2019-11-11</FchEmis>
+            <TipoDespacho>3</TipoDespacho>
+            <IndTraslado>1</IndTraslado>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>95304000-K</RUTEmisor>
+            <RznSoc>CMPC Maderas SpA.</RznSoc>
+            <GiroEmis>Aserrado y acepilladura de madera</GiroEmis>
+            <Acteco>161000</Acteco>
+            <CdgSIISucur>73980541</CdgSIISucur>
+            <DirOrigen>AVDA.JORGE ALESSANDRI  001  MININCO</DirOrigen>
+            <CmnaOrigen>Los Angeles</CmnaOrigen>
+            <CiudadOrigen>Los Angeles</CiudadOrigen>
+            <CdgVendedor>16322425</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>96532330-9</RUTRecep>
+            <CdgIntRecep>169712</CdgIntRecep>
+            <RznSocRecep>CMPC PULP SpA.</RznSocRecep>
+            <GiroRecep>FABRICACIÓN DE CELULOSA Y PAPEL, COMPRA </GiroRecep>
+            <Contacto>SANTI</Contacto>
+            <DirRecep>AGUSTINAS</DirRecep>
+            <CmnaRecep>SANTIAGO</CmnaRecep>
+          </Receptor>
+          <Transporte>
+            <RUTTrans>79620090-1</RUTTrans>
+            <DirDest>AVDA.JORGE ALESSANDRI  001  MININCO</DirDest>
+            <CmnaDest>ANGOL</CmnaDest>
+            <CiudadDest>08 REGION DEL</CiudadDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>243569</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>46278</IVA>
+            <MntTotal>289847</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>000000001200000050</VlrCodigo>
+          </CdgItem>
+          <NmbItem>ASTILLA COMBUSTIBLE (TRITURADO)</NmbItem>
+          <QtyItem>80.001</QtyItem>
+          <UnmdItem>MCE</UnmdItem>
+          <PrcItem>3044.58</PrcItem>
+          <MontoItem>243569</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>95304000-K</RE>
+            <TD>52</TD>
+            <F>1080822</F>
+            <FE>2019-11-11</FE>
+            <RR>96532330-9</RR>
+            <RSR>CMPC PULP SpA.</RSR>
+            <MNT>289847</MNT>
+            <IT1>ASTILLA COMBUSTIBLE (TRITURADO)</IT1>
+          <CAF version="1.0">
+<DA>
+<RE>95304000-K</RE>
+<RS>CMPC MADERAS SPA</RS>
+<TD>52</TD>
+<RNG><D>1065000</D><H>1129999</H></RNG>
+<FA>2019-05-31</FA>
+<RSAPK><M>qmR6GlTw+SFuBgKFqASaPj+6GmMF+PZGxTOvWCnr9MU7YW2bYUa3jXkwY1sYKZ5XyArR0TTmfJAOgolDkIsO5w==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">lMPGJlQl/PaZwJDKI7XUxzRxF9RnEQzc137n8BT28JAYDPsZOsE/ilx+rRAS4yHt8N0KeYmpwtx11EFVDCkf3A==</FRMA>
+</CAF><TSTED>2019-11-11T18:15:22</TSTED></DD>
+        <FRMT algoritmo="SHA1withRSA">kd0byIfDo/W5sQ5xclDbB+fNo4u7/B0AfEOkfhnjOKT2ul9OK+pKyeInoCn/x4MSWUXPVjVvxEuKgptISD517g==</FRMT></TED>
+      <TmstFirma>2019-11-11T18:15:22</TmstFirma></Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#DTE95304000X52X1080822X20191111181522">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>R/NdTh1OJgFMoMpKqibBf+XIanw=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+g1ZNnsg0b8wj2ESdcpc/eTXKXcQhIr04BeQ6QNURN9fynYwn/6stVZjdyE88Bu969LbZZa/PhqWo
+t7vWA/tiTXr/bKgWYTH30ow+lt8Hf0GC0XWwHaPFnySmOZyfAuSU+kdJSSAgVpJ9rtu7is3DgOhW
+s8FgpfiYTZT3umpHSds=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+uP8CLANnc1HYO9DWo1Rm52J3JYcM8Q1GOAYfasR+riFVkRm/B6NzXyCn4Ei4CVjyYSyVuOEctb/E
+lyUSnknsGk8si3O6rW+DZKBkMxIvQm6OnxJJ4bhE1wu4Ee4yDV0quQk1I09H4nV/ahJl9/RWt1YY
+HO2nrmNuSQkRsSl0//c=
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGJjCCBQ6gAwIBAgIKYWV/jgAAAAtR9TANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xODA2MTUyMDIxMTBaFw0yMTA2MTQyMDIxMTBa
+MIGnMQswCQYDVQQGEwJDTDEUMBIGA1UECBMLREVMIEJJT0JJTyAxEDAOBgNVBAcTB0JpbyBCaW8x
+GjAYBgNVBAoMEQlDTVBDIE1BREVSQVMgUyBBMQowCAYDVQQLDAEqMSwwKgYDVQQDEyNFZHVhcmRv
+IEF1cmVsaW8gSGVybmFuZGV6IEZlcm5hbmRlejEaMBgGCSqGSIb3DQEJARYLc2lpQGNtcGMuY2ww
+gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALj/AiwDZ3NR2DvQ1qNUZudidyWHDPENRjgGH2rE
+fq4hVZEZvwejc18gp+BIuAlY8mEslbjhHLW/xJclEp5J7BpPLItzuq1vg2SgZDMSL0Jujp8SSeG4
+RNcLuBHuMg1dKrkJNSNPR+J1f2oSZff0VrdWGBztp65jbkkJEbEpdP/3AgMBAAGjggKpMIICpTCC
+AU8GA1UdIASCAUYwggFCMIIBPgYIKwYBBAHDUgUwggEwMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3
+LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAA
+bwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIABy
+AGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAA
+ZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0
+AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNV
+HQ4EFgQUWBdyQmuoxQxTZOo5QRMc3c2eaqcwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYB
+BAHBAQGgDBYKMTE4OTMxODgtMjAfBgNVHSMEGDAWgBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNV
+HR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5j
+cmwwOgYIKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNs
+L29jc3AwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7Dxhgcue
+FIaoglgCAWQCAQQwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3
+DQEBBQUAA4IBAQA4FqMpw4z5yXL/Z8lw99uKhBkY/KPw1WW00r2GF+bIsdfNRp1/OC+bZxkaAMuP
+otJwbHdG7ozLmQQvXCut8yVFrYJ0+eCxLJQEs0WDjrWZDQ6sripLeVXTG7ttvIWMwQxJKpdZWO+/
+3vO/g+gVU5O9xgtKFQ9m37i/PfVob5oKR8+7Z3nTfeAVw/kcOvR0OhyhTmEJ8t90jkUJphgKUqto
+eQSIlp3PgEcyurm8uYhRc+p7F/RTWulw1nOqowG3PkaqicFaYKeMrjGiHRq98qti9viPIFxM0yd6
+dLiCBrMIMx8ARzPG2JxbCzG/TPF1kWQncRT9NgPyV3hK9rvMntYp
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+</SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#SETDTE95304000X52X1080822X206317793">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>dY/2puQqabI/+STo3CmNgRTFVBc=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+AmhCG32uI9BX7jbFtgvM8WGmZr3QFt8sr49xa0jyCFBQgIkXDmH3trgeAm6d6ktX0IjQwJNN6SuL
+xgw4Wu0AEsDcMoB+S/8I3A5YNItOgGxFjO3pvrx0WWfYVKwCNokwFvRGW10Xp6GZdLeayu5IhV/H
+YgimsmuMqZtxOolqfQgMu62WtsxIRXM7n9zvWo+m+kempKPdtrJ9s1NqqB/toI3aEdjDCR7FcF0t
+QjPXlR2RRbkUSNI19Lpx+FCbuua2VNgbPdI4KiKkDaxC7ey0UXXrUDgHQQ1xv7sBvKAxNDC99php
+2JhyXpIFeobEfh2GQSJ/0bu3hBGJZhq1LUewig==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+rTLGGVUU92J7q8HYU0gwJtGBX2oCGUPXZLxWPRB4icCXUVuPBMG0LsNNtYuOiN8nhDDg8Ld0Xd/P
+N2TwfWHg5RLN5YPxtsChEqjX7sk5AAtcpzy29uzVu2mDs9ybfTkIQ2PMR44Zu0y9iXN9pU6TZPPZ
+SIj5hEXTOQSAS9CRTg0BvPlwjlJ7zmxsvmcIi8PX8kKBK9UmJlDkTYEGnmMnGOHokuqwQFX+uKpd
+rcDYk40dSNVAs5+SIwhFt4NjrWmd7ArI9+0gBsKc5axQkeHAI99b9XzJ6dpeRLukiL1ss+w8n4++
+kOiOMeoLyKbhiaae43OFciLmvml8fzxed8ExrQ==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGfTCCBWWgAwIBAgICM0owDQYJKoZIhvcNAQELBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHNDEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE4MTEwODE2MDAyNloXDTIxMTEwODE2
+MDAyNlowgZMxCzAJBgNVBAYTAkNMMSMwIQYDVQQMExpJTkdFTklFUk8gQ0lWSUwgSU5EVVNUUklB
+TDEoMCYGA1UEAxMfSklNTVkgQ0hSSVNUT1BIRVIgRkxPUkVTIFNJR09OQTEgMB4GCSqGSIb3DQEJ
+ARYRSlNGTE9SRVNARU5URUwuQ0wxEzARBgNVBAUTCjExODYyNzM2LTkwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtMsYZVRT3YnurwdhTSDAm0YFfagIZQ9dkvFY9EHiJwJdRW48EwbQu
+w021i46I3yeEMODwt3Rd3883ZPB9YeDlEs3lg/G2wKESqNfuyTkAC1ynPLb27NW7aYOz3Jt9OQhD
+Y8xHjhm7TL2Jc32lTpNk89lIiPmERdM5BIBL0JFODQG8+XCOUnvObGy+ZwiLw9fyQoEr1SYmUORN
+gQaeYycY4eiS6rBAVf64ql2twNiTjR1I1UCzn5IjCEW3g2OtaZ3sCsj37SAGwpzlrFCR4cAj31v1
+fMnp2l5Eu6SIvWyz7Dyfj76Q6I4x6gvIpuGJpp7jc4VyIua+aXx/PF53wTGtAgMBAAGjggLEMIIC
+wDAfBgNVHSMEGDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQU2YRppIHXMLsxfxx6
+2BNEzzNripgwCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglg
+hkgBhvhCAQEEBAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYW
+D0FjZXB0YS5jb20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZv
+cm1hIHByZXNlbmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1
+c28gdHJpYnV0YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYB
+BAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQEC
+gQ9pbmZvQGFjZXB0YS5jb20wXAYDVR0RBFUwU6AYBggrBgEEAcEBAaAMFgoxMTg2MjczNi05oCQG
+CCsGAQUFBwgDoBgwFgwKMTE4NjI3MzYtOQYIKwYBBAHBAQKBEUpTRkxPUkVTQEVOVEVMLkNMMEcG
+CCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9v
+Y3NwL0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9h
+Y2c0L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/Ec+VDUCri7k1VlCidQ4Y
+F1JER7K8PPxVpfmzrwTI9WJsYNUEX5Sxz4weE+kPaMrs8UjeyKOBIjEbpG9rfcWAloLKAQ80qtAE
+rE1puYpKAbbq0Esf+WdumMXCGQfDO49kiVUb12sr54w4ygJIt7vrJGbUyrM9zZfjChXh5GI/0+4P
+S2qDAafAbNVqLI06JTqGRW3i4ZQGGjUrKXUBNpIhLFlHrsNOSiImnrltMNpn7G3CmZ/q/x1HqZgk
+OgsyM1PZqi9L5EEO0aIRTRfvovF08yft87xm25XGqZDeP4/tCygHAq8z0iiu38NSJy6Z3CSFuJBk
+VSdGU0JVbnAmw5Qs
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+<Personalizados>
+  <DocPersonalizado dteID="DTE95304000X52X1080822X20191111181522">
+      <campoString name="impresora">PLY_1</campoString>
+      <campoString name="hora">18:14:59</campoString>
+      <campoString name="descrtipotranslado">Operación constituye venta</campoString>
+      <campoString name="descrtipodte">Guía</campoString>
+      <campoString name="nombrevendedor">PAMELA ANDREA CARRASCO SANHUEZA</campoString>
+      <campoString name="CONDICIONDEVENTA">Pago a 30 días</campoString>
+      <campoString name="lineadetalle">__Doc.Modelo   C.C.                                                U.Venta  Cantidad       Precio        Valor Ref.</campoString>
+      <campoString name="provincia2">13 REGION METRO</campoString>
+      <campoString name="nombretransportista">JORQUERA TRANSPORTE S.A. CASA MATRIZ</campoString>
+      <campoString name="codigotransp">400596</campoString>
+      <campoString name="patentecamion">JXBR93</campoString>
+      <campoString name="patentecarro">HXDJ16</campoString>
+      <campoString name="rutchofer">9859619-4</campoString>
+      <campoString name="nombrechofer">PACHECO CEA FRANCISC</campoString>
+      <campoString name="nombredespachador">Héctor Gabriel Garrido Tapia</campoString>
+      <campoString name="observacion1">OCompra  PULP PLY AST COMB TRIT PAC EN-JUN19                 T/C  746.23000 USD           Paquetes 1              Pesaje Total      43000</campoString>
+      <campoString name="observacion2">Origen   Maderas Plywood                                                                                          Peso Neto        16.744</campoString>
+      <campoString name="observacion3">Especie                   Cond: /                            Vol.Total      31,008                         Tara UT/Carro       0/      0</campoString>
+      <campoString name="OrigenDespacho">Maderas Plywood Avda. Jorge Alessandri s/n  Comuna: Collipuli Región: 09 REGION LA ARAUCANIA</campoString>
+      <campoNumero name="internoguia">71212974</campoNumero>
+      <campoNumero name="codigocliente">169712</campoNumero>
+      <campoNumero name="totalpiezas">0</campoNumero>
+      <campoNumero name="totalvolumen">0</campoNumero>
+      <campoNumero name="totalpaquetes">1</campoNumero>
+      <campoNumero name="pesobruto">16744186</campoNumero>
+      <campoNumero name="pesoneto">16744.186</campoNumero>
+      <campoNumero name="tara">0</campoNumero>
+      <campoNumero name="subtotal">243569</campoNumero>
+      <campoNumero name="descuento1">0</campoNumero>
+      <campoNumero name="recargo1">0</campoNumero>
+      <campoNumero name="flete1">0</campoNumero>
+      <campoNumero name="FLETE">4846197</campoNumero>
+      <ImpresionDetalle>
+        <PersonNroLinDet>1</PersonNroLinDet>
+        <DetPersonAFN_01>0620115451 - 0010 ASTILLA COMBUSTIBLE (TRITURADO) Rol 392-1 Cod. 112</DetPersonAFN_01>
+        <DetPersonAFN_02>10                                                               MCE   80,001          3.044,58         243.569</DetPersonAFN_02>
+      </ImpresionDetalle>
+    </DocPersonalizado>
+</Personalizados>
+</EnvioDTE>

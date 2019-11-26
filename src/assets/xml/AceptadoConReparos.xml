@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0">
+<SetDTE ID="SETDTE76236893X52X36676X206317776">
+<Caratula version="1.0">
+<RutEmisor>76236893-5</RutEmisor>
+<RutEnvia>11862736-9</RutEnvia>
+<RutReceptor>10429345-K</RutReceptor>
+<FchResol>2014-08-22</FchResol>
+<NroResol>80</NroResol>
+<TmstFirmaEnv>2019-11-11T18:16:03</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>52</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE version="1.0">
+    <Documento ID="DTE76236893X52X36676X20191111181504">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>36676</Folio>
+            <FchEmis>2019-11-11</FchEmis>
+            <TipoDespacho>1</TipoDespacho>
+            <IndTraslado>2</IndTraslado>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76236893-5</RUTEmisor>
+            <RznSoc>BEACH MARKET LIMITADA</RznSoc>
+            <GiroEmis>GRANDES TIENDAS - PRODUCTOS DE FERRETERIA Y PARA EL HOGAR</GiroEmis>
+            <Acteco>471990</Acteco>
+            <DirOrigen>ENRIQUE MOLINA 594</DirOrigen>
+            <CmnaOrigen>TOME</CmnaOrigen>
+            <CiudadOrigen>TOME</CiudadOrigen>
+            <CdgVendedor>EUDO EDUINE PARRA</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>10429345-K</RUTRecep>
+            <CdgIntRecep>721684</CdgIntRecep>
+            <RznSocRecep>JAIME EDUARDO ERIZ FLORES</RznSocRecep>
+            <GiroRecep>SUPERMERCADO Y FERRETERIA</GiroRecep>
+            <DirRecep>DANIEL VERA 890</DirRecep>
+            <CmnaRecep>TOME</CmnaRecep>
+            <CiudadRecep>TOME</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>7682</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>1460</IVA>
+            <MntTotal>9142</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>PRF830U</VlrCodigo>
+          </CdgItem>
+          <NmbItem>PRENSA F 80X300 FWYY . .</NmbItem>
+          <DscItem>PRENSA F 80X300 FWYY . .</DscItem>
+          <QtyItem>2</QtyItem>
+          <UnmdItem>UNID</UnmdItem>
+          <PrcItem>3841</PrcItem>
+          <MontoItem>3841</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76236893-5</RE>
+            <TD>52</TD>
+            <F>36676</F>
+            <FE>2019-11-11</FE>
+            <RR>10429345-K</RR>
+            <RSR>JAIME EDUARDO ERIZ FLORES</RSR>
+            <MNT>9142</MNT>
+            <IT1>PRENSA F 80X300 FWYY . .</IT1>
+          <CAF version="1.0">
+<DA>
+<RE>76236893-5</RE>
+<RS>BEACH MARKET LIMITADA</RS>
+<TD>52</TD>
+<RNG><D>35501</D><H>40500</H></RNG>
+<FA>2019-10-10</FA>
+<RSAPK><M>sUSXwUz4Blafffqbs/QPWLuPzrLhPHz4FXbWV6nZFhOaFP5sc5gupbrEozi0YoJTTN9AgyYwFHE2rIo/PeKbhw==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">a5khZO+TJmSqO4H2XjGRFIqxgrRUTGwI80R0YaPY7/yVaTM3HWlA05vpfX6N+/QsXB/qhnkNYdtYlZIVdVbr7g==</FRMA>
+</CAF><TSTED>2019-11-11T18:15:03</TSTED></DD>
+        <FRMT algoritmo="SHA1withRSA">GXEZbG2u0zvJpmO3r5kWEkEmQ02saJTBe1HMOnjxKlUEjr4oj89DSLc9o50zUXQRPWTyOc1dqiR+RfamJn6WeA==</FRMT></TED>
+      <TmstFirma>2019-11-11T18:15:04</TmstFirma></Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#DTE76236893X52X36676X20191111181504">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>TFyunOR2fNsamU+P6NEv0qMwIV0=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+ehm1gnEAF8Ua0bJj5e+Sl/cgO7Th8WUUSX3FLYlc8T/VWKLejxDPt8chzBYjLfxEMd5cv02vtj34
+DRctGKah+ojl5xNq6IcUoU38AkExNioL5PbkUKOty4SLeNMC23yFshNxAxbJWj/o1uImOPP9bMjD
+QcsLfVbVf/rimkGUwvgAgWZuEHXw8ERvs6o+hVro+MsT20OHxoT31eAikVpx0CE72lThKTwGZQ+x
+Lc1UHv5QAfnnD//4k4CfbfYo9Y/aheFC2UtsQMm+tBMQPbdRL1uvBdIimD/y2EJ1Q3sheph8DC05
+4zD0VqaFGMI6CDPN5EYo2qgZjsaGz2MTcUCZ/w==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+nBne2mf1gQ1HM88dogUM2GIuCo1VUqRDmtCIDsilh91UYlmn5ARh26FPlRZU4tRAAuaI2D28r0Dn
+DDl1M4ScmE+pE2/S0xaVGrZXutpM03i4QmsvdBZTVJ0uPXqPqQfPqKWEetaYMeqdTu5cfnO5CgDM
+8nq6m5Iea3PCWeb4bLzEO6l1dPruxQ4JfmXGomRST5bLEsTxq+J/A157EmZ6V7THN87NqC/SBfxV
+Vf3RM6QgUHrNkwVY9QLpsCgK40r3Xx/TNAUgqpBQaTln1oEnz4u4WlT+krpXfj1Y/7fs1HGy7qO7
+6yEOxu+mEYE3zLdLSC7NZXB9gPywk+6dRk90PQ==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGSTCCBTGgAwIBAgIIdWVVlt85MkAwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNVBAYTAkNMMRQw
+EgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1s
+YS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQDDCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmli
+dXRhcmlhIENBMSIwIAYJKoZIhvcNAQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTE4MDMxNjE0
+MDIwMFoXDTIxMDMxNTE0MDIwMFowgagxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5B
+LjE5MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNl
+cm9zMSIwIAYDVQQDDBlKQUlNRSBFRFVBUkRPIEVSSVogRkxPUkVTMSQwIgYJKoZIhvcNAQkBFhVq
+ZXJpemZsb3Jlc0BnbWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCcGd7a
+Z/WBDUczzx2iBQzYYi4KjVVSpEOa0IgOyKWH3VRiWafkBGHboU+VFlTi1EAC5ojYPbyvQOcMOXUz
+hJyYT6kTb9LTFpUatle62kzTeLhCay90FlNUnS49eo+pB8+opYR61pgx6p1O7lx+c7kKAMzyerqb
+kh5rc8JZ5vhsvMQ7qXV0+u7FDgl+ZcaiZFJPlssSxPGr4n8DXnsSZnpXtMc3zs2oL9IF/FVV/dEz
+pCBQes2TBVj1AumwKArjSvdfH9M0BSCqkFBpOWfWgSfPi7haVP6Suld+PVj/t+zUcbLuo7vrIQ7G
+76YRgTfMt0tILs1lcH2A/LCT7p1GT3Q9AgMBAAGjggJsMIICaDCBgAYIKwYBBQUHAQEEdDByMEoG
+CCsGAQUFBzAChj5odHRwOi8vcGtpLmVzaWduLWxhLmNvbS9jYWNlcnRzL3BraUNsYXNzMkZpcm1h
+VHJpYnV0YXJpYUNBLmNydDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZXNpZ24tbGEuY29tMB0G
+A1UdDgQWBBQ3TEh4aOEdQigsI4k+cO6MDTzhkTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFPlK
++sLHbsLnEpxXRTWEGm0o6UqkMIHIBgNVHSAEgcAwgb0wgboGDCsGAQQBgspqAQQBAjCBqTB+Bggr
+BgEFBQcCAjByHnAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAgAHUAcwBvACAAVABy
+AGkAYgB1AHQAYQByAGkAbwAsACAAQwBvAG0AZQByAGMAaQBvACwAIABQAGEAZwBvAHMAIAB5ACAA
+TwB0AHIAbwBzMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3LmVzaWduLWxhLmNvbS9jcHMwUQYDVR0f
+BEowSDBGoESgQoZAaHR0cDovL3BraS5lc2lnbi1sYS5jb20vY3JsL3BraUNsYXNzMkZpcm1hVHJp
+YnV0YXJpYS9lbmR1c2VyLmNybDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIG
+CCsGAQUFBwMEMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTA0MjkzNDUtSzAjBgNVHRIEHDAa
+oBgGCCsGAQQBwQECoAwWCjk5NTUxNzQwLUswDQYJKoZIhvcNAQELBQADggEBAD6Did6QsjC1KoC+
+x9iJ50b8EhIpHHGbcdZ07qKRBo3HGbUhwaw14LhhNGkUTXP0XdFHwBpSuplfvfdyLFbRFmYANaFV
+Ldb6ewXr8FKbuQ70TDdKng2vpjRUg5kXKC8E4zzCU1lxBlxOBL4mbbDIK/YKGaRSXHmYvS2qwgjG
+w+v/xGFfpH2z63gwKkVGKktnMDoKlqkmaLp9+FMLUv9UKMMqAbgabkPleFA+ry8+786hfC5Ho10T
+XM3zmB3humcJwkAhyEnAYRQXxovIuVfrYifIozIAK8SEPWeF3NNGts2gdPuwwVL/vNkM2zuwFk0h
+Dwh604qfKOHfyev855GwMMg=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+</SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#SETDTE76236893X52X36676X206317776">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>TRs0W6arjRZEJty4qgiTONwZbJs=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+mIkGdlV7C+9kvXggnJvO3G5dDi3u8p5LHjyedlkvtVmVzdh3VlXVvh9rhSHGzwb3Ipu4wnh/V4mp
+iDOgduUN2p+lXwGkEcLXtsy2+LUzOs2OZ2LeApy51KmJ7nlo+3RXlWAaJgkOYTDA15FjgpAOWF16
+FjP4aNlAbaIOjZWf4kIieRe+KEAEc34d31mhDTaD6aAPLw+w+cXRm37fohn69gBvY31WU8NtxkoP
+V+MuPvvbpBg81BnWwOj16t5bu0krK57rNqRzwn9iM4IMoJdmTeqfNIWl/jRy3MeTH4ZfgIkrYopo
+BE8uuCgtRRimE7w82Qx+lFRb/QwTl5Ga83qZkQ==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+rTLGGVUU92J7q8HYU0gwJtGBX2oCGUPXZLxWPRB4icCXUVuPBMG0LsNNtYuOiN8nhDDg8Ld0Xd/P
+N2TwfWHg5RLN5YPxtsChEqjX7sk5AAtcpzy29uzVu2mDs9ybfTkIQ2PMR44Zu0y9iXN9pU6TZPPZ
+SIj5hEXTOQSAS9CRTg0BvPlwjlJ7zmxsvmcIi8PX8kKBK9UmJlDkTYEGnmMnGOHokuqwQFX+uKpd
+rcDYk40dSNVAs5+SIwhFt4NjrWmd7ArI9+0gBsKc5axQkeHAI99b9XzJ6dpeRLukiL1ss+w8n4++
+kOiOMeoLyKbhiaae43OFciLmvml8fzxed8ExrQ==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGfTCCBWWgAwIBAgICM0owDQYJKoZIhvcNAQELBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHNDEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE4MTEwODE2MDAyNloXDTIxMTEwODE2
+MDAyNlowgZMxCzAJBgNVBAYTAkNMMSMwIQYDVQQMExpJTkdFTklFUk8gQ0lWSUwgSU5EVVNUUklB
+TDEoMCYGA1UEAxMfSklNTVkgQ0hSSVNUT1BIRVIgRkxPUkVTIFNJR09OQTEgMB4GCSqGSIb3DQEJ
+ARYRSlNGTE9SRVNARU5URUwuQ0wxEzARBgNVBAUTCjExODYyNzM2LTkwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtMsYZVRT3YnurwdhTSDAm0YFfagIZQ9dkvFY9EHiJwJdRW48EwbQu
+w021i46I3yeEMODwt3Rd3883ZPB9YeDlEs3lg/G2wKESqNfuyTkAC1ynPLb27NW7aYOz3Jt9OQhD
+Y8xHjhm7TL2Jc32lTpNk89lIiPmERdM5BIBL0JFODQG8+XCOUnvObGy+ZwiLw9fyQoEr1SYmUORN
+gQaeYycY4eiS6rBAVf64ql2twNiTjR1I1UCzn5IjCEW3g2OtaZ3sCsj37SAGwpzlrFCR4cAj31v1
+fMnp2l5Eu6SIvWyz7Dyfj76Q6I4x6gvIpuGJpp7jc4VyIua+aXx/PF53wTGtAgMBAAGjggLEMIIC
+wDAfBgNVHSMEGDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQU2YRppIHXMLsxfxx6
+2BNEzzNripgwCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglg
+hkgBhvhCAQEEBAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYW
+D0FjZXB0YS5jb20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZv
+cm1hIHByZXNlbmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1
+c28gdHJpYnV0YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYB
+BAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQEC
+gQ9pbmZvQGFjZXB0YS5jb20wXAYDVR0RBFUwU6AYBggrBgEEAcEBAaAMFgoxMTg2MjczNi05oCQG
+CCsGAQUFBwgDoBgwFgwKMTE4NjI3MzYtOQYIKwYBBAHBAQKBEUpTRkxPUkVTQEVOVEVMLkNMMEcG
+CCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9v
+Y3NwL0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9h
+Y2c0L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/Ec+VDUCri7k1VlCidQ4Y
+F1JER7K8PPxVpfmzrwTI9WJsYNUEX5Sxz4weE+kPaMrs8UjeyKOBIjEbpG9rfcWAloLKAQ80qtAE
+rE1puYpKAbbq0Esf+WdumMXCGQfDO49kiVUb12sr54w4ygJIt7vrJGbUyrM9zZfjChXh5GI/0+4P
+S2qDAafAbNVqLI06JTqGRW3i4ZQGGjUrKXUBNpIhLFlHrsNOSiImnrltMNpn7G3CmZ/q/x1HqZgk
+OgsyM1PZqi9L5EEO0aIRTRfvovF08yft87xm25XGqZDeP4/tCygHAq8z0iiu38NSJy6Z3CSFuJBk
+VSdGU0JVbnAmw5Qs
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+<Personalizados>
+  <DocPersonalizado dteID="DTE76236893X52X36676X20191111181504">
+      <campoString name="NInterno">721684</campoString>
+      <campoString name="condicion">120</campoString>
+      <campoString name="telefono">421972048</campoString>
+      <campoString name="vendedor">EUDO EDUINE PARRA</campoString>
+      <campoString name="comuna_despacho">DANIEL VERA 890</campoString>
+      <campoString name="Observacion">VALORES MAS IVA.</campoString>
+      <campoString name="telefono2">421972048</campoString>
+      <campoString name="OC">0</campoString>
+      <campoString name="rut_chofer">22222222-2</campoString>
+      <campoString name="nombre_chofer">CHOFER PARTICULAR</campoString>
+      <campoString name="rut_empresa">77753800-4</campoString>
+    </DocPersonalizado>
+</Personalizados>
+</EnvioDTE>

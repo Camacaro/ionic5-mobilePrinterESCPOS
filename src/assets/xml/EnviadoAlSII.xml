@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0">
+<SetDTE ID="SETDTE96853150X52X1193636X206317888">
+<Caratula version="1.0">
+<RutEmisor>96853150-6</RutEmisor>
+<RutEnvia>11862736-9</RutEnvia>
+<RutReceptor>89201400-0</RutReceptor>
+<FchResol>2011-12-29</FchResol>
+<NroResol>156</NroResol>
+<TmstFirmaEnv>2019-11-11T18:17:48</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>52</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE version="1.0">
+    <Documento ID="DTE96853150X52X1193636X20191111181624">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>1193636</Folio>
+            <FchEmis>2019-11-11</FchEmis>
+            <IndTraslado>1</IndTraslado>
+            <FmaPago>2</FmaPago>
+            <TermPagoCdg>Y060</TermPagoCdg>
+            <TermPagoGlosa>Crédito</TermPagoGlosa>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>96853150-6</RUTEmisor>
+            <RznSoc>Papeles Cordillera S.A.</RznSoc>
+            <GiroEmis>Venta al por mayor de papel y carton</GiroEmis>
+            <Acteco>513940</Acteco>
+            <CdgSIISucur>10485477</CdgSIISucur>
+            <DirOrigen>Eyzaguirre 01098</DirOrigen>
+            <CmnaOrigen>Puente Alto</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>89201400-0</RUTRecep>
+            <CdgIntRecep>124</CdgIntRecep>
+            <RznSocRecep>ENVASES IMPRESOS SpA.</RznSocRecep>
+            <GiroRecep>FABRICACION DE ENVASES DE PAPEL Y CARTON</GiroRecep>
+            <Contacto>2-24711300</Contacto>
+            <DirRecep>CAMINO ALTO JAHUEL 0360   SANTIAGO</DirRecep>
+            <CmnaRecep>BUIN</CmnaRecep>
+          </Receptor>
+          <Transporte>
+            <Patente>JTZP47</Patente>
+            <RUTTrans>76269860-9</RUTTrans>
+            <DirDest>CAMINO ALTO JAHUEL 0360  SANTIAGO</DirDest>
+            <CmnaDest>BUIN</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>11985194</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>2277187</IVA>
+            <MntTotal>14262381</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>CO0627TE9991900</VlrCodigo>
+          </CdgItem>
+          <NmbItem>ONDA  270</NmbItem>
+          <QtyItem>29.096</QtyItem>
+          <UnmdItem>T</UnmdItem>
+          <PrcItem>411918.96</PrcItem>
+          <MontoItem>11985194</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>96853150-6</RE>
+            <TD>52</TD>
+            <F>1193636</F>
+            <FE>2019-11-11</FE>
+            <RR>89201400-0</RR>
+            <RSR>ENVASES IMPRESOS SpA.</RSR>
+            <MNT>14262381</MNT>
+            <IT1>ONDA 270</IT1>
+          <CAF version="1.0">
+<DA>
+<RE>96853150-6</RE>
+<RS>PAPELES CORDILLERA SPA</RS>
+<TD>52</TD>
+<RNG><D>1191000</D><H>1200999</H></RNG>
+<FA>2019-09-04</FA>
+<RSAPK><M>wZz8t6d2nqMTryIBAIX4tjSxbWXbV4x0kWK3PlRaLwu7DCAJ9A8ijZhpv5JDYwcCIqY5qPhhOuo2immd6MkESQ==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">HsrzFCCddDYiF9nIneQ2Ic+omu8zX1kozpOrRyQecRWDzOqNr2GP27kuCAXp4Dk8cx57+2VJv9rdRKSz9smgyg==</FRMA>
+</CAF><TSTED>2019-11-11T18:16:24</TSTED></DD>
+        <FRMT algoritmo="SHA1withRSA">LiorcrQ+++IaJKIXryOYJmvcyp1pV9wxXwoTuXDimuD9lbq7SxbH4uf1ouIjeuywDBaZ4SwJO07OcUVJIS7buQ==</FRMT></TED>
+      <TmstFirma>2019-11-11T18:16:24</TmstFirma></Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#DTE96853150X52X1193636X20191111181624">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>i25S/LdP9oiog+SbsCUV1ruypxk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+KJSTiNVZWMk6Zq53Qty/IIwubECn0Z8yOgfkmVpAla3qq6nLVJeHZyZ100rOW1wUr60VXw1ldYXP
+WZh2mbuBGSBOmihGBC179aXOEHfsdNLE4uXknFfa004rAZw/B/8tpwxnBY5QueTQ++fT+S70mbWP
+ycg8+tlVd/MAIi12PP4=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+vAa94au53q5U7lpmP0q+i5NYkUmrY8KCdokQ1Nr5aqJErmSD4u1cCB+4XiP2Xjv5F7la62byIEGG
+6yPPfBnCf5QmkiWc5sxKAgonmurFYKZmjiwccnE1umRNAY+7C8WtUOHG+O6T3a3GjfdeRcFXo5Sa
+h1CaHe/+paXb/PHhQFc=
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGLzCCBRegAwIBAgIKLqbXhQAAAA3bIzANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xOTA1MTQyMTA3MTFaFw0yMjA1MTMyMTA3MTFa
+MIGwMQswCQYDVQQGEwJDTDEqMCgGA1UECAwhUkVHScOTTiBNRVRST1BPTElUQU5BIERFIFNBTlRJ
+QUdPMREwDwYDVQQHEwhTYW50aWFnbzEcMBoGA1UEChMTTFVJUyBMTEFOT1MgQ09MTEFETzEKMAgG
+A1UECwwBKjEcMBoGA1UEAxMTTFVJUyBMTEFOT1MgQ09MTEFETzEaMBgGCSqGSIb3DQEJARYLc2lp
+QGNtcGMuY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALwGveGrud6uVO5aZj9KvouTWJFJ
+q2PCgnaJENTa+WqiRK5kg+LtXAgfuF4j9l47+Re5Wutm8iBBhusjz3wZwn+UJpIlnObMSgIKJ5rq
+xWCmZo4sHHJxNbpkTQGPuwvFrVDhxvjuk92txo33XkXBV6OUmodQmh3v/qWl2/zx4UBXAgMBAAGj
+ggKpMIICpTCCAU8GA1UdIASCAUYwggFCMIIBPgYIKwYBBAHDUgUwggEwMC0GCCsGAQUFBwIBFiFo
+dHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAg
+AHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMA
+IAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABw
+AGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUA
+IABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0
+AGUALDAdBgNVHQ4EFgQUfSMPUaCjtqiqOOlXQ1fRQMMpEy8wCwYDVR0PBAQDAgTwMCMGA1UdEQQc
+MBqgGAYIKwYBBAHBAQGgDBYKMDcwMDMwNjQtMDAfBgNVHSMEGDAWgBR44T6f0hKzejyNzTAOU7ND
+KQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hp
+bGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2Vy
+dGNoaWxlLmNsL29jc3AwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLc
+J4Hv7DxhgcueFIaoglgCAWQCAQQwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01
+MA0GCSqGSIb3DQEBBQUAA4IBAQCTzYs3SMkRrGMtA2CjFzwsj1n2PGUd8fZ3HZyjbPDYMJjfq89F
+7CLPc1JI9r1Id3QAdo3/DaNNBHJplFHpMIsNOeWnucL9GWivw49CioRZtxAxJZqBmUVA8DA8Dbbk
+4jMIZV2gqBZACXLFrKXR3IYAYm6GJPfERShHn5O6kHKXNOxicr1SU9PrUw+3InJ9L63WEq5j9h9e
+ICB+z5OUpCWF66QVfwIKS0pH6r4bbwj+EsYVEwgTvNuTuIhAgRswvuGUBpdkvu/5JwOHbKpVER9x
+Wdtryu2W4OyphxqAFtrUKZ5oJPKntMY/GJtfzKEfZPBFnzpUN7XLND9u8F0MF/eG
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+</SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#SETDTE96853150X52X1193636X206317888">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>9h7GMqtLZsqsB7rtyEnKAVTT9lc=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+f02pvuZ/LC/eVX00Hyqs6F5SLmc4afOucAs9ZcdsDXenMtq/Hlo3z7LPgS/bdvu7QeClGNLDeu+w
+3meLui4h1rJBdENoXkFmZTfqC1sTy2HVv0RlO7afcMnF7QenxEQ5YmPuOS7MU4cRGYFPXNt3pHZo
+5WiMaCqztnGNeGwAoev3LbJL59LhhaoOVUosMJtUuNe/1J0MMJqrspWa1gc6O9Vij14GTQE/GVjH
+yA06Gp7m3XJ97YFpPPVeGb79jL0jIdw/NqTdUWdPqBHLCxeqmVghqZUgPvrM4NAB2l+ipBuWhr9b
+lW8wEJYjbwSeoLqrr/lCTYGZZ5A/BT3jij6dMQ==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+rTLGGVUU92J7q8HYU0gwJtGBX2oCGUPXZLxWPRB4icCXUVuPBMG0LsNNtYuOiN8nhDDg8Ld0Xd/P
+N2TwfWHg5RLN5YPxtsChEqjX7sk5AAtcpzy29uzVu2mDs9ybfTkIQ2PMR44Zu0y9iXN9pU6TZPPZ
+SIj5hEXTOQSAS9CRTg0BvPlwjlJ7zmxsvmcIi8PX8kKBK9UmJlDkTYEGnmMnGOHokuqwQFX+uKpd
+rcDYk40dSNVAs5+SIwhFt4NjrWmd7ArI9+0gBsKc5axQkeHAI99b9XzJ6dpeRLukiL1ss+w8n4++
+kOiOMeoLyKbhiaae43OFciLmvml8fzxed8ExrQ==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGfTCCBWWgAwIBAgICM0owDQYJKoZIhvcNAQELBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHNDEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE4MTEwODE2MDAyNloXDTIxMTEwODE2
+MDAyNlowgZMxCzAJBgNVBAYTAkNMMSMwIQYDVQQMExpJTkdFTklFUk8gQ0lWSUwgSU5EVVNUUklB
+TDEoMCYGA1UEAxMfSklNTVkgQ0hSSVNUT1BIRVIgRkxPUkVTIFNJR09OQTEgMB4GCSqGSIb3DQEJ
+ARYRSlNGTE9SRVNARU5URUwuQ0wxEzARBgNVBAUTCjExODYyNzM2LTkwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtMsYZVRT3YnurwdhTSDAm0YFfagIZQ9dkvFY9EHiJwJdRW48EwbQu
+w021i46I3yeEMODwt3Rd3883ZPB9YeDlEs3lg/G2wKESqNfuyTkAC1ynPLb27NW7aYOz3Jt9OQhD
+Y8xHjhm7TL2Jc32lTpNk89lIiPmERdM5BIBL0JFODQG8+XCOUnvObGy+ZwiLw9fyQoEr1SYmUORN
+gQaeYycY4eiS6rBAVf64ql2twNiTjR1I1UCzn5IjCEW3g2OtaZ3sCsj37SAGwpzlrFCR4cAj31v1
+fMnp2l5Eu6SIvWyz7Dyfj76Q6I4x6gvIpuGJpp7jc4VyIua+aXx/PF53wTGtAgMBAAGjggLEMIIC
+wDAfBgNVHSMEGDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQU2YRppIHXMLsxfxx6
+2BNEzzNripgwCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglg
+hkgBhvhCAQEEBAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYW
+D0FjZXB0YS5jb20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZv
+cm1hIHByZXNlbmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1
+c28gdHJpYnV0YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYB
+BAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQEC
+gQ9pbmZvQGFjZXB0YS5jb20wXAYDVR0RBFUwU6AYBggrBgEEAcEBAaAMFgoxMTg2MjczNi05oCQG
+CCsGAQUFBwgDoBgwFgwKMTE4NjI3MzYtOQYIKwYBBAHBAQKBEUpTRkxPUkVTQEVOVEVMLkNMMEcG
+CCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9v
+Y3NwL0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9h
+Y2c0L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/Ec+VDUCri7k1VlCidQ4Y
+F1JER7K8PPxVpfmzrwTI9WJsYNUEX5Sxz4weE+kPaMrs8UjeyKOBIjEbpG9rfcWAloLKAQ80qtAE
+rE1puYpKAbbq0Esf+WdumMXCGQfDO49kiVUb12sr54w4ygJIt7vrJGbUyrM9zZfjChXh5GI/0+4P
+S2qDAafAbNVqLI06JTqGRW3i4ZQGGjUrKXUBNpIhLFlHrsNOSiImnrltMNpn7G3CmZ/q/x1HqZgk
+OgsyM1PZqi9L5EEO0aIRTRfvovF08yft87xm25XGqZDeP4/tCygHAq8z0iiu38NSJy6Z3CSFuJBk
+VSdGU0JVbnAmw5Qs
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+<Personalizados>
+  <DocPersonalizado dteID="DTE96853150X52X1193636X20191111181624">
+      <campoString name="CodProdSAP" line="1">CO0627TE9991900</campoString>
+      <campoString name="Centro" line="1">1901</campoString>
+      <campoString name="TpoDocRef" line="1">001</campoString>
+      <campoString name="TpoDocRef801" line="1">801</campoString>
+      <campoString name="OCCliente" line="1">4702103767</campoString>
+      <campoString name="FchOC" line="1">01-10-2019</campoString>
+      <campoString name="DocRefPedido" line="1">620863630</campoString>
+      <campoString name="TpoRefPedido802" line="1">802</campoString>
+      <campoString name="PosDocRef" line="1">000790</campoString>
+      <campoString name="FchPedido" line="1">01-10-2019</campoString>
+      <campoString name="TasaCambio" line="1">746,23000</campoString>
+      <campoString name="OrdenCompra" line="1">4702103767</campoString>
+      <campoString name="Kilos" line="1">29096</campoString>
+      <campoString name="NombreDestinatario">ENVASES IMPRESOS SpA.</campoString>
+      <campoString name="DireccionSucursal">Eyzaguirre 01098</campoString>
+      <campoString name="ComunaRecep">BUIN</campoString>
+      <campoString name="RegionRecep">REGION METROPOLITANA</campoString>
+      <campoString name="NombreChofer">DANILO ARANCIBIA</campoString>
+      <campoString name="ComunaSucursal">Puente Alto</campoString>
+      <campoString name="CiudadSucursal">Santiago</campoString>
+      <campoString name="NumEntrega">0071212185</campoString>
+      <campoString name="Patente1">JTZP47</campoString>
+      <campoString name="IndTipoDespacho">2</campoString>
+      <campoString name="DescTipoTraslado">VENTA NACIONAL</campoString>
+      <campoString name="FamiliaDoc">GUIA</campoString>
+      <campoString name="ClaseDoc">ZLF1</campoString>
+      <campoString name="TelefonoDest">2-24711300</campoString>
+      <campoString name="CodVendedor">10480126</campoString>
+      <campoString name="NombreVendedor">JORGE LUIS ALVARADO</campoString>
+      <campoString name="CentroDestino">0000000</campoString>
+      <campoString name="MontoExcrito1">CATORCE MILLONES DOSCIENTOS SESENTA Y DOS MIL TRESCIENTOS OCHENTA Y UN PESOS</campoString>
+      <campoString name="NroTransporte">4845698</campoString>
+      <campoString name="CodTransportista">402344</campoString>
+      <campoString name="Impresora">117XE_117PTIUAD1</campoString>
+      <campoString name="NombreTransportista">TRANSPORTES GENOVA   LTDA.</campoString>
+      <campoString name="PrefFolioOficial">GNL</campoString>
+      <campoString name="PesoRomana">11985194          1</campoString>
+      <campoString name="M3">0,000</campoString>
+      <campoString name="PesoBruto">29,096</campoString>
+      <campoString name="PesoNeto">29,096</campoString>
+      <campoString name="CodClienteDM">124</campoString>
+      <campoString name="RegionCliente">REGION METROPOLITANA</campoString>
+      <campoString name="RegionDest">REGION METROPOLITANA</campoString>
+      <campoNumero name="CantidadLotes" line="1">13</campoNumero>
+      <ImpresionDetalle>
+        <PersonNroLinDet>1</PersonNroLinDet>
+        <DetPersonAFN_01>190,00</DetPersonAFN_01>
+        <DetPersonAFN_02>145,00</DetPersonAFN_02>
+        <DetPersonAFN_03>10,20</DetPersonAFN_03>
+      </ImpresionDetalle>
+    </DocPersonalizado>
+</Personalizados>
+</EnvioDTE>

@@ -1,0 +1,103 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Conexion Bluetooth
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+    <ion-button color="primary" expand="full" (click)="listaDeDispositivos()">
+        <ion-icon name="refresh"></ion-icon> &nbsp; Refrescar Dispositivos Bluetooth
+    </ion-button>
+
+    <ion-row>
+        <ion-col>
+            <ion-radio-group>
+
+                <ion-list radio-group *ngIf="listToggle">
+
+                    <ion-item *ngFor="let i of dispositivos;let j=index">
+
+                        <ion-label>
+                            <h3>{{ i.name }}</h3>
+                            <p>
+                                {{ i.address }}
+                            </p>
+                        </ion-label>
+
+                        <ion-radio  value="{{j}}" (ionFocus)="elegirDispositivo( j )" ></ion-radio> 
+
+                    </ion-item>
+                </ion-list>
+            </ion-radio-group>
+        </ion-col>
+    </ion-row>
+
+    <ion-button color="primary" expand="full" *ngIf="listToggle" (click)="seleccionarDispositivo()">
+        <ion-icon name="bluetooth"></ion-icon>&nbsp;Conectar dispositivos Bluetooth
+    </ion-button>
+
+
+    <!-- <ion-list>
+        <ion-item>
+
+            <ion-label floating>Escribe el dato que quieres enviar</ion-label>
+
+            <ion-input type="text" name="txt" [(ngModel)]="txt" ngDefaultControl ></ion-input>
+
+        </ion-item>
+    </ion-list> -->
+
+     <ion-button color="primary" expand="full">
+        <label class="myFakeUploadButton" for="myFileInput">Subir archivo</label>
+        <ion-input type="file" class="custom-file-input" (change)="fileChangeEvent($event)"></ion-input>
+    </ion-button>
+
+
+    <ion-row>
+        <ion-col>
+
+            <ion-item *ngIf="XMLInput !== ''">
+                <ion-label>
+                    <h3> Archivo Cargado </h3>
+                </ion-label>
+            </ion-item>
+
+            <ion-radio-group>
+
+                <ion-list radio-group>
+
+                    <ion-list-header>
+                        <p>XML's Estaticos</p>
+                    </ion-list-header>
+
+                    <ion-item *ngFor="let xml of XMLEstaticos; let j=index">
+
+                        <ion-label>
+                            <h3>{{ xml.nombre }}</h3>
+                        </ion-label>
+
+                        <ion-radio  [value]="j" (ionFocus)="elegirXML( j )" [checked]="xml.select" ></ion-radio> 
+
+                    </ion-item>
+                </ion-list>
+            </ion-radio-group>
+        </ion-col>
+    </ion-row>
+
+
+
+
+
+
+    <ion-button color="primary" expand="full" (click)="enviarDato()">
+        <ion-icon name="send"></ion-icon>&nbsp;Enivar dato Via Bluetooth
+    </ion-button>
+
+
+
+    
+    
+</ion-content>

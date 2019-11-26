@@ -1,0 +1,50 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-title>
+            XML's Estaticos
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+    <ion-row>
+        <ion-col>
+            <ion-radio-group>
+
+                <ion-list radio-group>
+
+                    <ion-item *ngFor="let xml of XMLEstaticos; let j=index">
+
+                        <ion-label>
+                            <h3>{{ xml.nombre }}</h3>
+                        </ion-label>
+
+                        <ion-radio  [value]="j" (ionFocus)="elegirXML( j )" [checked]="xml.select" ></ion-radio> 
+
+                    </ion-item>
+                </ion-list>
+            </ion-radio-group>
+        </ion-col>
+    </ion-row>
+
+    <!-- <ion-list #list>
+
+        <ion-radio-group>
+
+        
+            <ion-item *ngFor="let xml of XMLEstaticos; let j=index">
+                
+                <ion-item >
+                    <ion-label>
+                        <h3>{{ xml.nombre }}</h3>
+                    </ion-label>
+
+                    <ion-radio  value="{{j}}"></ion-radio> 
+                </ion-item>
+            </ion-item>
+
+        </ion-radio-group>
+
+	</ion-list> -->
+</ion-content>

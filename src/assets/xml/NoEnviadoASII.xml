@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0">
+<SetDTE ID="SETDTE95304000X52X1080823X206317913">
+<Caratula version="1.0">
+<RutEmisor>95304000-K</RutEmisor>
+<RutEnvia>11862736-9</RutEnvia>
+<RutReceptor>95304000-K</RutReceptor>
+<FchResol>2012-10-17</FchResol>
+<NroResol>109</NroResol>
+<TmstFirmaEnv>2019-11-11T18:18:25</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>52</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE version="1.0">
+    <Documento ID="DTE95304000X52X1080823X20191111181759">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>1080823</Folio>
+            <FchEmis>2019-11-11</FchEmis>
+            <TipoDespacho>3</TipoDespacho>
+            <IndTraslado>5</IndTraslado>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>95304000-K</RUTEmisor>
+            <RznSoc>CMPC Maderas SpA.</RznSoc>
+            <GiroEmis>Aserrado y acepilladura de madera</GiroEmis>
+            <Acteco>161000</Acteco>
+            <CdgSIISucur>5111990</CdgSIISucur>
+            <DirOrigen>Recinto Muelles S/N Lirquén</DirOrigen>
+            <CmnaOrigen>Los Angeles</CmnaOrigen>
+            <CiudadOrigen>Los Angeles</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>95304000-K</RUTRecep>
+            <CdgIntRecep>3213010</CdgIntRecep>
+            <RznSocRecep>CMPC MADERAS SpA.</RznSocRecep>
+            <GiroRecep>PRODUC., ELABORACION Y COMERCIALIZADORA </GiroRecep>
+            <Contacto>SANTI</Contacto>
+            <DirRecep>AGUSTINAS 1343 - PISO 4</DirRecep>
+            <CmnaRecep>SANTIAGO</CmnaRecep>
+          </Receptor>
+          <Transporte>
+            <RUTTrans>76593543-1</RUTTrans>
+            <DirDest>Recinto Muelles S/N Lirquén</DirDest>
+            <CmnaDest>Penco</CmnaDest>
+            <CiudadDest>08 REGION DEL</CiudadDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>6310781</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>1199048</IVA>
+            <MntTotal>7509829</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>M170BAN000095</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MOLDAJE VERDE RUSTICO 73x73x4</NmbItem>
+          <QtyItem>29.84</QtyItem>
+          <UnmdItem>M3</UnmdItem>
+          <PrcItem>163516.5</PrcItem>
+          <MontoItem>4879332</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>M170BAN000316</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MOLDAJE VERDE RUSTICO 18,5x96x4</NmbItem>
+          <QtyItem>8.439</QtyItem>
+          <UnmdItem>M3</UnmdItem>
+          <PrcItem>169623</PrcItem>
+          <MontoItem>1431449</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>95304000-K</RE>
+            <TD>52</TD>
+            <F>1080823</F>
+            <FE>2019-11-11</FE>
+            <RR>95304000-K</RR>
+            <RSR>CMPC MADERAS SpA.</RSR>
+            <MNT>7509829</MNT>
+            <IT1>MOLDAJE VERDE RUSTICO 73x73x4</IT1>
+          <CAF version="1.0">
+<DA>
+<RE>95304000-K</RE>
+<RS>CMPC MADERAS SPA</RS>
+<TD>52</TD>
+<RNG><D>1065000</D><H>1129999</H></RNG>
+<FA>2019-05-31</FA>
+<RSAPK><M>qmR6GlTw+SFuBgKFqASaPj+6GmMF+PZGxTOvWCnr9MU7YW2bYUa3jXkwY1sYKZ5XyArR0TTmfJAOgolDkIsO5w==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">lMPGJlQl/PaZwJDKI7XUxzRxF9RnEQzc137n8BT28JAYDPsZOsE/ilx+rRAS4yHt8N0KeYmpwtx11EFVDCkf3A==</FRMA>
+</CAF><TSTED>2019-11-11T18:17:58</TSTED></DD>
+        <FRMT algoritmo="SHA1withRSA">Y3JBdAyqG584o1Dq8J22AqNnGy1BLmQJ7BtvTZ+rUttYDsVQOfdCL/g7Nd9gg+vHSHR5WyLIOkcbwX0VGs4YGw==</FRMT></TED>
+      <TmstFirma>2019-11-11T18:17:59</TmstFirma></Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#DTE95304000X52X1080823X20191111181759">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>UBRYdEmQvj22pCrymtL7oFZNXEM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+dbiNCatDU7RcUHlM21Ju/KQJsbv6Aj4b4fO0mc8oCwueRbP9FBGBgtfDqWguGjwo+6cmaWhjghS9
+gmtZsvyuvzR399Nc4lEQXrfd/+SXtMBTTSGRFdslgDE44sXEz5nniZ+gK0Dswt6QS/mo0o7fZVbZ
+PWfVjF0dkpADh4pDs4U=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+uP8CLANnc1HYO9DWo1Rm52J3JYcM8Q1GOAYfasR+riFVkRm/B6NzXyCn4Ei4CVjyYSyVuOEctb/E
+lyUSnknsGk8si3O6rW+DZKBkMxIvQm6OnxJJ4bhE1wu4Ee4yDV0quQk1I09H4nV/ahJl9/RWt1YY
+HO2nrmNuSQkRsSl0//c=
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGJjCCBQ6gAwIBAgIKYWV/jgAAAAtR9TANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xODA2MTUyMDIxMTBaFw0yMTA2MTQyMDIxMTBa
+MIGnMQswCQYDVQQGEwJDTDEUMBIGA1UECBMLREVMIEJJT0JJTyAxEDAOBgNVBAcTB0JpbyBCaW8x
+GjAYBgNVBAoMEQlDTVBDIE1BREVSQVMgUyBBMQowCAYDVQQLDAEqMSwwKgYDVQQDEyNFZHVhcmRv
+IEF1cmVsaW8gSGVybmFuZGV6IEZlcm5hbmRlejEaMBgGCSqGSIb3DQEJARYLc2lpQGNtcGMuY2ww
+gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALj/AiwDZ3NR2DvQ1qNUZudidyWHDPENRjgGH2rE
+fq4hVZEZvwejc18gp+BIuAlY8mEslbjhHLW/xJclEp5J7BpPLItzuq1vg2SgZDMSL0Jujp8SSeG4
+RNcLuBHuMg1dKrkJNSNPR+J1f2oSZff0VrdWGBztp65jbkkJEbEpdP/3AgMBAAGjggKpMIICpTCC
+AU8GA1UdIASCAUYwggFCMIIBPgYIKwYBBAHDUgUwggEwMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3
+LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAA
+bwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIABy
+AGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAA
+ZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0
+AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNV
+HQ4EFgQUWBdyQmuoxQxTZOo5QRMc3c2eaqcwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYB
+BAHBAQGgDBYKMTE4OTMxODgtMjAfBgNVHSMEGDAWgBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNV
+HR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5j
+cmwwOgYIKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNs
+L29jc3AwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7Dxhgcue
+FIaoglgCAWQCAQQwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3
+DQEBBQUAA4IBAQA4FqMpw4z5yXL/Z8lw99uKhBkY/KPw1WW00r2GF+bIsdfNRp1/OC+bZxkaAMuP
+otJwbHdG7ozLmQQvXCut8yVFrYJ0+eCxLJQEs0WDjrWZDQ6sripLeVXTG7ttvIWMwQxJKpdZWO+/
+3vO/g+gVU5O9xgtKFQ9m37i/PfVob5oKR8+7Z3nTfeAVw/kcOvR0OhyhTmEJ8t90jkUJphgKUqto
+eQSIlp3PgEcyurm8uYhRc+p7F/RTWulw1nOqowG3PkaqicFaYKeMrjGiHRq98qti9viPIFxM0yd6
+dLiCBrMIMx8ARzPG2JxbCzG/TPF1kWQncRT9NgPyV3hK9rvMntYp
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+</SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#SETDTE95304000X52X1080823X206317913">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>z69vFqENtKbOzzXah2YY/jk7Wks=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+jTXg1jL4YDP/Kj60gHt8asFMYEF+4e3ZqVsWYcLwUyJ1Cwx3ls8t0hmVAmiRFwFx89DVyEVxcBkJ
++NQ0Yin2Ic3fmqTvmbPrgyoY6rj5sSRcx1ImJrleT1+qSNzAfw59LTcS/z8fOSHLun6yxIWkSYWX
+/Ev4Q9slz/7hkOVBJzZy8n0xvviMQ1QV2Jzr/bEp9OushAPqBoJjcYAQIxJEYCtz8Jqt+kSTQE7g
+yAnM7j8Bl+JjDMLF8GrtsZC46LXwVUhynIQMZHdQiuejdChhPuDWMdEEOKip5NEQXwDBZLjnHvkq
+W75ocLFfdulAvzSWvISWngWM1oeqE6yInSQH9g==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+rTLGGVUU92J7q8HYU0gwJtGBX2oCGUPXZLxWPRB4icCXUVuPBMG0LsNNtYuOiN8nhDDg8Ld0Xd/P
+N2TwfWHg5RLN5YPxtsChEqjX7sk5AAtcpzy29uzVu2mDs9ybfTkIQ2PMR44Zu0y9iXN9pU6TZPPZ
+SIj5hEXTOQSAS9CRTg0BvPlwjlJ7zmxsvmcIi8PX8kKBK9UmJlDkTYEGnmMnGOHokuqwQFX+uKpd
+rcDYk40dSNVAs5+SIwhFt4NjrWmd7ArI9+0gBsKc5axQkeHAI99b9XzJ6dpeRLukiL1ss+w8n4++
+kOiOMeoLyKbhiaae43OFciLmvml8fzxed8ExrQ==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGfTCCBWWgAwIBAgICM0owDQYJKoZIhvcNAQELBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHNDEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE4MTEwODE2MDAyNloXDTIxMTEwODE2
+MDAyNlowgZMxCzAJBgNVBAYTAkNMMSMwIQYDVQQMExpJTkdFTklFUk8gQ0lWSUwgSU5EVVNUUklB
+TDEoMCYGA1UEAxMfSklNTVkgQ0hSSVNUT1BIRVIgRkxPUkVTIFNJR09OQTEgMB4GCSqGSIb3DQEJ
+ARYRSlNGTE9SRVNARU5URUwuQ0wxEzARBgNVBAUTCjExODYyNzM2LTkwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtMsYZVRT3YnurwdhTSDAm0YFfagIZQ9dkvFY9EHiJwJdRW48EwbQu
+w021i46I3yeEMODwt3Rd3883ZPB9YeDlEs3lg/G2wKESqNfuyTkAC1ynPLb27NW7aYOz3Jt9OQhD
+Y8xHjhm7TL2Jc32lTpNk89lIiPmERdM5BIBL0JFODQG8+XCOUnvObGy+ZwiLw9fyQoEr1SYmUORN
+gQaeYycY4eiS6rBAVf64ql2twNiTjR1I1UCzn5IjCEW3g2OtaZ3sCsj37SAGwpzlrFCR4cAj31v1
+fMnp2l5Eu6SIvWyz7Dyfj76Q6I4x6gvIpuGJpp7jc4VyIua+aXx/PF53wTGtAgMBAAGjggLEMIIC
+wDAfBgNVHSMEGDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQU2YRppIHXMLsxfxx6
+2BNEzzNripgwCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglg
+hkgBhvhCAQEEBAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYW
+D0FjZXB0YS5jb20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZv
+cm1hIHByZXNlbmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1
+c28gdHJpYnV0YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYB
+BAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQEC
+gQ9pbmZvQGFjZXB0YS5jb20wXAYDVR0RBFUwU6AYBggrBgEEAcEBAaAMFgoxMTg2MjczNi05oCQG
+CCsGAQUFBwgDoBgwFgwKMTE4NjI3MzYtOQYIKwYBBAHBAQKBEUpTRkxPUkVTQEVOVEVMLkNMMEcG
+CCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9v
+Y3NwL0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9h
+Y2c0L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/Ec+VDUCri7k1VlCidQ4Y
+F1JER7K8PPxVpfmzrwTI9WJsYNUEX5Sxz4weE+kPaMrs8UjeyKOBIjEbpG9rfcWAloLKAQ80qtAE
+rE1puYpKAbbq0Esf+WdumMXCGQfDO49kiVUb12sr54w4ygJIt7vrJGbUyrM9zZfjChXh5GI/0+4P
+S2qDAafAbNVqLI06JTqGRW3i4ZQGGjUrKXUBNpIhLFlHrsNOSiImnrltMNpn7G3CmZ/q/x1HqZgk
+OgsyM1PZqi9L5EEO0aIRTRfvovF08yft87xm25XGqZDeP4/tCygHAq8z0iiu38NSJy6Z3CSFuJBk
+VSdGU0JVbnAmw5Qs
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+<Personalizados>
+  <DocPersonalizado dteID="DTE95304000X52X1080823X20191111181759">
+      <campoString name="impresora">LASER_LONCOCHE</campoString>
+      <campoString name="hora">18:17:23</campoString>
+      <campoString name="descrtipotranslado">OTROS TRASLADOS NO VENTA</campoString>
+      <campoString name="descrtipodte">Guía</campoString>
+      <campoString name="lineadetalle">__Doc.Modelo          Espesor    Ancho      Largo  Piezas   Pqtes  U.Venta  Cantidad       Precio        Valor Ref.</campoString>
+      <campoString name="provincia2">13 REGION METRO</campoString>
+      <campoString name="nombretransportista">TRANSPORTES GRILLER Y CIA. LTDA.</campoString>
+      <campoString name="codigotransp">105025</campoString>
+      <campoString name="patentecamion">KRFY66</campoString>
+      <campoString name="patentecarro">HXDY12</campoString>
+      <campoString name="rutchofer">16992646-8</campoString>
+      <campoString name="nombrechofer">DOMINGO OÑATE VIVALL</campoString>
+      <campoString name="nombredespachador">Ademir Cristián Pavéz Cabrera</campoString>
+      <campoString name="certificacion">RA-COC-006555       '-------       FSC MIX CREDIT</campoString>
+      <campoString name="certificacion2">CL06/0005FC         '-------       100% PEFC CERTIFIED</campoString>
+      <campoString name="observacion1">OCompra                                                      T/C          1 CLP           Paquetes 13             Pesaje Total      43560</campoString>
+      <campoString name="observacion2">Origen   Maderas Loncoche Destino: Puerto Lirquén                                                                 Peso Neto        30.623</campoString>
+      <campoString name="observacion3">Especie  Pino             Cond: /                            Vol.Total      37,154                         Tara UT/Carro       0/      0</campoString>
+      <campoString name="OrigenDespacho">Maderas Loncoche Panam. Sur 1549 Camino Lastarria  Comuna: Loncoche Región: 09 REGION LA ARAUCANIA</campoString>
+      <campoNumero name="internoguia">71212970</campoNumero>
+      <campoNumero name="codigocliente">3213010</campoNumero>
+      <campoNumero name="totalpiezas">1188</campoNumero>
+      <campoNumero name="totalvolumen">0</campoNumero>
+      <campoNumero name="totalpaquetes">13</campoNumero>
+      <campoNumero name="pesobruto">2250400</campoNumero>
+      <campoNumero name="pesoneto">30623.2</campoNumero>
+      <campoNumero name="tara">0</campoNumero>
+      <campoNumero name="subtotal">6310781</campoNumero>
+      <campoNumero name="descuento1">0</campoNumero>
+      <campoNumero name="recargo1">0</campoNumero>
+      <campoNumero name="flete1">0</campoNumero>
+      <campoNumero name="FLETE">4846153</campoNumero>
+      <ImpresionDetalle>
+        <PersonNroLinDet>1</PersonNroLinDet>
+        <DetPersonAFN_01>4501394972 - 10 MOLDAJE VERDE RUSTICO 73x73x4</DetPersonAFN_01>
+        <DetPersonAFN_02>10           mmM    72,000     72,000     4,000     1400   10    M3        29,030     163516,50       4.879.332</DetPersonAFN_02>
+      </ImpresionDetalle>
+      <ImpresionDetalle>
+        <PersonNroLinDet>2</PersonNroLinDet>
+        <DetPersonAFN_01>4501394972 - 20 PINO ASERRADO VERDE RUSTICO C/BAÑO</DetPersonAFN_01>
+        <DetPersonAFN_02>20           mmM    18,000     95,000     4,000     1188   3     M3         8,124     169623,00       1.431.449</DetPersonAFN_02>
+      </ImpresionDetalle>
+    </DocPersonalizado>
+</Personalizados>
+</EnvioDTE>
